@@ -4,15 +4,241 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap Sample</title>
+    <title>Profile for Keisuke Katamune</title>
+    <!-- CSS読み込み -->
+    <link rel="stylesheet" href="style.css">
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+
+
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="js/bootstrap-image-gallery.min.js"></script>
+  
   </head>
   <body>
-    <h1>Hello, world!</h1>
+
+    <header>
+    <div id="logo">
+    <img src="images/profile.jpg" alt="Keisuke Katamuneの写真">
+    <h1>片宗　慧亮 </h1>
+    <p>  <a href="https://www.facebook.com/kaikei.san"><i class="fa fa-facebook fa-3x"></i></a>
+         <a href="https://twitter.com/kk41609891"><i class="fa fa-twitter fa-3x"></i></a>
+         <a href="https://github.com/kkgithub1989"><i class="fa fa-github fa-3x"></i></a>
+   </p>
+    </div>
+     </header>
+    <div class="container">
+      <!--タブ-->
+    <div id="nav">
+<ul class="nav nav-tabs">
+<li class="active"><a href="#tab1" data-toggle="tab"> <h3>Profile</h3></a></a></li>
+<li><a href="#tab2" data-toggle="tab"><h3>Work</h3></a></li>
+<li><a href="#tab3" data-toggle="tab"><h3>Gallary</h3></a></li>
+</ul>
+  </div>
+     <!-- / タブ-->
+<div id="myTabContent" class="tab-content">
+<div class="tab-pane fade in active" id="tab1">
+ <section>
+
+        <h4>Profile</h4>
+        <p>片宗　慧亮
+        </p>
+        <p>東京都青梅市出身。</p>
+        <p>仕事でRubyでのウエブサービスを展開することになったのでTechacademyに入りました。
+<br>全く素人ですが、よろしくお願い致します。
+        <p>私のポートフォリオを見て気になった方は、<a href="contact.html">Contact</a>よりご連絡お願い致します。</p>
+   </section>
+</div>
+<div class="tab-pane fade" id="tab2">
+  <h4>Our Latest Work</h4>
+    <div class="work">
+	    <div class="row">
+		    <div class="col-sm-12 work-title wow fadeIn">
+		    <p>今までラウンチしたサービス、メデイア一覧です</p>
+		    </div>
+	    </div>
+	    <div class="row">
+	      <div class="col-sm-3">
+		      <div class="workwowfadeInUp">
+		        <img src="images/My work1.png" width="160px" alt="Lorem Website" data-at2x="assets/img/portfolio/work1.jpg" class="workpic">
+		        <h5>人気No.1-Messager</h5>
+		        <p>特定の人とマンツーマンで無料でチャットができるウエブサービス！
+履歴は完全に消去されるので、プライバシーを心配する必要もありません！</p>
+		        <div class="work-bottom">
+		        <button type="button" class="btn btn-primary btn-xs">このサイトを覗いてみる！</button>
+		        </div>
+		      </div>
+	      </div><br>
+	        <div class="col-sm-3">
+		        <div class="workwowfadeInDown">
+		          <img src="images/My work3.png" width="160px" alt="Ipsum Logo" data-at2x="assets/img/portfolio/work2.jpg" class="workpic">
+		          <h5>人気No.2-Twitt○r Clone</h5>
+		          <p>某有名SNSの簡易版をつくってみました。某有名サービみたいに盛り上がるといいな…（あまり期待はしていませんが笑）がんばって作りました。
+		          </p>
+		        <div class="work-bottom">
+		          <button type="button" class="btn btn-primary btn-xs">このサイトを覗いてみる！</button>
+		        </div>
+		      </div>
+		    </div><br>
+		    <div class="col-sm-3">
+		      <div class="workwowfadeInUp">
+		      <img src="images/My work2.png" width="160px" alt="Dolor Prints" data-at2x="assets/img/portfolio/work3.jpg" class="workpic">
+		      <h5>人気No.3-Monoリスト</h5>
+		      <p>アマゾンの欲しいものリストみたいなものです。正直どんなサービスなのか自分でもよくわかっていませんが、どんなものになるかワクワクです。</p>
+		      <div class="work-bottom">
+		      <button type="button" class="btn btn-primary btn-xs">このサイトを覗いてみる！</button>
+		      </div>
+		     </div>
+		   </div><br>
+		   <div class="col-sm-3">
+		   <div class="workwowfadeInDown">
+		   <img src="images/My work3.png" width="160px" alt="Sit Amet Website" data-at2x="assets/img/portfolio/work4.jpg" class="workpic">
+		   <h5>人気No.4-郷土料理DE日本一周</h5>
+		   <p>日本の郷土料理を楽しみながら、
+日本一周をする新しいエンターテイメントマッチングアプリ。
+郷土料理を食べながら、
+日本一周を目指そう！</p>
+		     <div class="work-bottom">
+		     <button type="button" class="btn btn-primary btn-xs">このサイトを覗いてみる！</button>
+		    </div>
+		  </div>
+		</div>
+	 </div>
+	</div>
+</div>
+<div class="tab-pane fade" id="tab3">
+   <div class="worknow">
+ <div class="row">
+
+             <div class="col-sm-12 work-title wow fadeIn">
+		                <h4>Our Latest Work</h4>
+		                <p>今までラウンチしたサービス、メデイア一覧です</p>
+		            </div>
+     <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+  <!-- The container for the modal slides -->
+  <div class="slides"></div>
+  <!-- Controls for the borderless lightbox -->
+  <h3 class="title"></h3>
+  <a class="prev">‹</a>
+  <a class="next">›</a>
+  <a class="close">×</a>
+  <a class="play-pause"></a>
+  <ol class="indicator"></ol>
+  <!-- The modal dialog, which will be used to wrap the lightbox content -->
+  <div class="modal fade">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" aria-hidden="true">&times;</button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body next"></div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default pull-left prev">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+            Previous
+          </button>
+          <button type="button" class="btn btn-primary next">
+            Next
+            <i class="glyphicon glyphicon-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="images/My work1.png" data-gallery>
+                    <img class="img-responsive" src="images/My work1.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="images/My work2.png" data-gallery>
+                    <img class="img-responsive" src="images/My work2.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="images/My work3.png" data-gallery>
+                    <img class="img-responsive" src="images/My work3.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="images/My work1.png" data-gallery>
+                    <img class="img-responsive" src="images/My work1.png" alt="">
+                </a>
+            </div>
+             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="images/My work2.png" data-gallery>
+                    <img class="img-responsive" src="images/My work2.png" alt="">
+                </a>
+            </div>
+            <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                <a class="thumbnail" href="images/My work3.png" data-gallery>
+                    <img class="img-responsive" src="images/My work3.png" alt="">
+                </a>
+            </div>
+       
+</div>
+	           
+</div>
+      </div>
+   </div>
+    </div>
+
+     
   </body>
+        <!-- Footer -->
+        <footer>
+            <div>
+                <div class="row">
+                    <div class="col-sm-4">
+                        <h4>初プログラミング</h4>
+                        <div class="footer-box-text">
+	                        <p>
+	                        	はじめてサイトを作りました。
+かなり時間をかけてしまいましたが、勉強になりました。より早くできるようにしていきたいと思っています。
+	                        </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <h4>メニュー</h4>
+                        <ul id="menu">
+                          <li><a href="#tab1" data-toggle="tab">Profile</a></li>
+                          <li><a href="#tab2" data-toggle="tab">Work</a></li>
+                          <li><a href="#tab3" data-toggle="tab">Gallary</a></li>
+                        </ul>
+                    </div>
+                   
+                    <div class="col-sm-4">
+                        <h4>Contact Us</h4>
+                        <div class="footer-box-text footer-box-text-contact">
+                         
+	                        <p><i class="fa fa-map-marker"></i> Address: Tokyo, Japan</p>
+	                        <p><i class="fa fa-phone"></i> Phone: 090 4432 &%##</p>
+	                        <p><i class="fa fa-user"></i> LINE:keisuke06141989  </p>
+	                        <p><i class="fa fa-envelope"></i> Email: <a href="mailto:keisuke.katamune@gmail.com">keisuke.katamune@gmail.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                 </div>
+       </footer> 
+                <div class="row">
+                	<div class="footer-bottom">
+                		  <p>Copyright 2015 Keisuke Katamune - All rights reserved. </p>
+                	</div>
+                </div>
+             
+           
 </html>

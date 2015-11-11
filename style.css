@@ -1,0 +1,95 @@
+body {
+  font-size: 14px;
+  margin: 0;
+	padding: 0;
+	background: url(images/b002.gif) center center fixed repeat;
+  
+      }
+
+header{
+  background-image: url(images/background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 100px;
+}
+
+#logo {
+  padding: 20px 0;
+  text-align: center;
+}
+#logo img{
+  max-width: 120px;
+  border: 5px solid #fff;
+  border-radius: 100%;
+}
+
+#logo h1{
+  font-family: arial black, arial;
+  letter-spacing: 0.15em;
+  color: white;
+  text-shadow: 1px 1px 0px #000;
+  margin-top: 10px;
+}
+
+#logo p{
+  text-align: center;
+}
+
+.container {
+
+  margin: -78px auto 0;
+  background: url(images/b001.gif) center center fixed repeat;
+}
+
+h3{
+  text-align: center;
+  letter-spacing: 0.1em;
+  width: 146px;
+  text-shadow:-1px -1px 1px rgba(0, 0, 0, 0.4), 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
+h4{
+.dropshadow{
+text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+}
+
+}
+h5{
+  text-align: center;
+}
+
+footer{
+  background-color:#EEEEEE;
+  padding:20px;
+}
+
+.work{
+  margin:5px;
+  padding-bottom: 20px;
+}
+
+.footer-bottom{
+  background-color:gray;
+  text-align: center;
+}
+
+img#user{
+  max-width: 110px;
+  border: 5px solid #fff;
+  border-radius: 100%;
+}
+
+.workwowfadeInUp{
+  text-align:center;
+}
+
+.workwowfadeInDown{
+  text-align:center;
+}
+
+ul#menu{
+  list-style-image: url(http://www.webcreatorbox.com/sample/images/arrow.png);
+  font-family: "ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Meiryo,"メイリオ",Helvetica,Sans-Serif;}
